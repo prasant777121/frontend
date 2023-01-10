@@ -57,7 +57,7 @@ public class signup extends AppCompatActivity {
                                     user User=new user(name,binding.profession.getText().toString(),email,password);
                                     String id=task.getResult().getUser().getUid();
                                     database.getReference().child("users").child(id).setValue(User);
-                                    Toast.makeText(signup.this, "signup successfully", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(signup.this, "signup successfully asjnaskjn", Toast.LENGTH_SHORT).show();
                                 }
                                 else{
                                     Toast.makeText(signup.this, "failed", Toast.LENGTH_SHORT).show();
