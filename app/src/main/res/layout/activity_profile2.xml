@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".profile2">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/download"
+            app:civ_border_color="#F3F3F3"
+            app:civ_border_width="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/diagonalLayout"
+            app:layout_constraintEnd_toEndOf="@+id/diagonalLayout"
+            app:layout_constraintStart_toStartOf="@+id/diagonalLayout"
+            tools:ignore="MissingConstraints" />
+        <com.github.florent37.diagonallayout.DiagonalLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="315dp"
+            android:elevation="30dp"
+
+            app:diagonal_direction="left"
+            app:diagonal_position="bottom"
+            diagonal:diagonal_angle="10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spider"></ImageView>
+
+        </com.github.florent37.diagonallayout.DiagonalLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
