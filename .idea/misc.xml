@@ -15,7 +15,11 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/frontend_insta/app/src/main/res/layout/fragment_notification.xml" value="0.14895833333333333" />
         <entry key="..\:/Users/user/AndroidStudioProjects/frontend_insta/app/src/main/res/layout/fragment_request.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/frontend_insta/app/src/main/res/layout/story.xml" value="0.2" />
+<<<<<<< HEAD
         <entry key="..\:/Users/user/AndroidStudioProjects/frontend_insta/app/src/main/res/layout/test.xml" value="0.1" />
+=======
+        <entry key="..\:/Users/user/AndroidStudioProjects/frontend_insta/app/src/main/res/layout/test.xml" value="0.128" />
+>>>>>>> test
         <entry key="..\:/Users/user/AndroidStudioProjects/frontend_insta/app/src/main/res/xml/story.xml" value="0.23229166666666667" />
       </map>
     </option>
